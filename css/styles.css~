@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Dekko', cursive;
+	background:#F7F7F7;
+}
+h1{
+	text-align:center;
+	margin-top:45px;
+	margin-bottom:15px;
+	color:black;
+	font-size:45px;
+	color:#3A3B3A;
+	
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.subtitle{
+
+	display:block;
+	
+}
+
+.section{
+	position:relative;
+	border:1px solid black;
+	margin: 5px 10px;
+  	height: 170px;
+ 	border: 1px solid black;
+	border-radius: 4px;
+}
+.row{
+position:relative;
+width:110%;
+height:auto;
+padding:10px;
+}
+
+.desc{
+position:absolute;
+top:35px;
+padding:5px;
+width:100%;
+height:auto;
+}
+
+.subtitle{
+	display:block;
+	position:absolute;
+	top:0px;
+	right: 0px;
+	border:1px solid black;
+	width:100px;
+	color:white;
+	font-size:20px;
+	text-align:center;
+ 	text-shadow: 1px 1px 5px #8c8b8a;
+}
+
+#chicken {
+  background:#FFA83A;
+}
+
+#Beef {background:#F8080C;
+}
+
+#Sushi{
+	background:#7E72EB;
+}
+#s1 {
+  background:#FFECCD;
+}
+#s2 {
+  background: #F9D0D1;
+}
+#s3 {
+  background: #CBF8F7;}
+
+/** HEADER **/
+#header-nav {
+  background-color: #383838;
+  border-radius: 0;
+  border: 0;
+  
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Dekko', cursive;
+  color: #ffab44;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #8c8b8a;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+font-family: 'Oxygen', sans-serif;
+  color: #f75104;
+  text-align: center;
+  text-transform: uppercase;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a {
+  font-size: 13px;
+ text-shadow: 1px 1px 5px #8c8b8a;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/****
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+li {
+font-size: ;
+}
+@media (max-width: 479px) {
+
+
+  /* End Header */
+
+
